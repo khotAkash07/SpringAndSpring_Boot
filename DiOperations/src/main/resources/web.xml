@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"	"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+
+	<bean name="m" class="org.akash.MapDIApp">
+		<property name="map">
+			<map>
+				<entry key="1" value="Akash"/>
+				<entry key="2" value="Abhi"/>
+				<entry key="3" value="Shubham"/>
+				<entry key="4" value="Nilesh"/>
+				<entry key="5" value="Digvijay"/>
+				<entry key="6" value="Prathmesh"/>
+			</map>
+		</property>
+	</bean>
+
+	<bean name="player" class="org.akash.Player">
+		<property name="id" value="1" />
+		<property name="name" value="Akash" />
+		<property name="run" value="10000" />
+	</bean>
+	
+	<bean name="s" class="org.akash.Student_01">
+		<property name="p" ref="player"/>
+	</bean>
+<!-- 
+	<bean name="student" class="org.akash.Student_01">
+		<constructor-arg value="1" type="long"/>
+		<constructor-arg value="Abhi" type="java.lang.String"/>
+		<constructor-arg value="90" type="int"/>
+	</bean>
+	
+	<bean name="student1" class="org.akash.Student_01">
+		<constructor-arg value="2" type="long"/>
+		<constructor-arg value="Ganesh" type="java.lang.String"/>
+		<constructor-arg value="90" type="int"/>
+		<constructor-arg value="88" type="int"/>
+	</bean>
+	
+	<bean name="l" class="org.akash.ListExmple">
+		<property name="list">
+			<list>
+				<value>2</value>
+				<value>3</value>
+				<value>4</value>
+				<value>5</value>
+				<value>6</value>
+				<value>7</value>
+				<value>8</value>
+				<value>9</value>
+				<value>28</value>
+				<value>7</value>
+				<value>6</value>
+				<value>4</value>
+				<value>5</value>
+				<value>21</value>
+			</list>
+		</property>
+	</bean>
+	-->
+	
+	
+	
+</beans>
+
+
+
+
+
+
+
+
+
+
+
+
+
