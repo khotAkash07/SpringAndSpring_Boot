@@ -3,6 +3,7 @@
 <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"	"https://www.springframework.org/dtd/spring-beans-2.0.dtd">
 
 <beans>
+<!-- 
 	<bean name="e" class="org.akash.Employee">
 		<property name="id" value="1"/>
 		<property name="name" value="Akash"/>
@@ -10,4 +11,13 @@
 	</bean>
 	
 	<bean name="c" class="org.akash.Company" autowire="byType"/>
+	
+	-->
+	
+	<bean name="ec" class="org.akash.EnginClass">
+		<property name="id" value="1"/>
+		<property name="name" value="4 Strok engine"/>
+		<property name="price" value="10000"/>
+	</bean>
+	<bean name="c" class="org.akash.Car" autowire="byName"></bean>
 </beans>

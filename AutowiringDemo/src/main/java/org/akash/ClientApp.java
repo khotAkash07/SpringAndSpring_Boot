@@ -7,8 +7,8 @@ public class ClientApp {
 		
 		@SuppressWarnings("resource")
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("abc.xml");
-		Company comp = (Company) context.getBean("c");
-		comp.show();
+		Carr c = (Carr) context.getBean("c");
+		c.show();
 	}
 
 }
