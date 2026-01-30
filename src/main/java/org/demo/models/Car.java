@@ -13,7 +13,6 @@ public class Car {
         String color = "red";
 
         System.out.println("Color: "+ color);
-
         String type = "4Wheeler";
         System.out.println("Type: "+ type);
     }
