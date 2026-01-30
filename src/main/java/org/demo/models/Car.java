@@ -11,6 +11,7 @@ public class Car {
         System.out.println("Model: "+ model);
 
         String color = "red";
+
         System.out.println("Color: "+ color);
         String type = "4Wheeler";
         System.out.println("Type: "+ type);
