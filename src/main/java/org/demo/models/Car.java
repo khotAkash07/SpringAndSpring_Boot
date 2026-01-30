@@ -9,6 +9,7 @@ public class Car {
         String model = "2025";
 
         System.out.println("Model: "+ model);
+
         String color = "red";
         System.out.println("Color: "+ color);
         String type = "4Wheeler";
