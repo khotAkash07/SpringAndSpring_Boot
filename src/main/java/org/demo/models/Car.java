@@ -5,6 +5,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class Car {
     public void showModel(){
+
         String model = "2025";
         System.out.println("Model: "+ model);
         String color = "red";
